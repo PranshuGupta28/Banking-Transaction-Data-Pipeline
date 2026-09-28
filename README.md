@@ -282,7 +282,7 @@ Banking-Transaction-Data-Pipeline/
 ├── pyspark/banking_etl.py             # end-to-end PySpark ETL + MySQL load
 ├── sql/
 │   ├── create_database.sql
-│   ├── create_tables.sql
+│   ├── create_tables.sqlgig
 │   ├── analytical_queries.sql         # 25 annotated queries
 │   └── risk_analysis.sql              # rule-based risk scoring in SQL
 ├── outputs/
@@ -338,7 +338,7 @@ git init
 git add .
 git commit -m "Banking transaction data pipeline & risk analytics"
 git branch -M main
-git remote add origin https://github.com/<username>/<repo-name>.git
+git remote add origin https://github.com/PranshuGupta28/<repo-name>.git
 git push -u origin main
 ```
 
