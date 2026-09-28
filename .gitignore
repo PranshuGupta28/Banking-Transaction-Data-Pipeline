@@ -26,7 +26,8 @@ metastore_db/
 derby.log
 *.log
 
-# Large intermediate Spark output parts (keep folder structure via .gitkeep)
-data/processed/spark_output/**/part-*.crc
+# Large intermediate Spark output artifacts
+data/processed/spark_output/**/*.crc
 data/processed/spark_output/**/_SUCCESS
-data/processed/spark_output/**/.part-*.crc
+data/processed/spark_output/**/._*
+__pycache__
