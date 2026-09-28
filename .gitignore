@@ -1,0 +1,32 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Secrets / credentials (never commit passwords or DB configs)
+.env
+*.env
+config/secrets.*
+secrets.yaml
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Spark / temporary artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# Large intermediate Spark output parts (keep folder structure via .gitkeep)
+data/processed/spark_output/**/part-*.crc
+data/processed/spark_output/**/_SUCCESS
+data/processed/spark_output/**/.part-*.crc

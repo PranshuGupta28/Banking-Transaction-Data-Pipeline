@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+pyspark
+mysql-connector-python
+sqlalchemy
+jupyter
+nbformat
+nbconvert

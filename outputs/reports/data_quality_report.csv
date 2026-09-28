@@ -1,0 +1,21 @@
+metric,value
+Total records,55437
+Duplicate records (full row),275
+Duplicate transaction_id values,440
+Total missing values (all columns),3619
+Missing: city,1107
+Missing: customer_age,556
+Missing: merchant_category,830
+Missing: payment_method,551
+Missing: balance_after,553
+Invalid amounts (<= 0),275
+Invalid transaction dates,111
+Invalid transaction_type values,0
+Invalid account_type values,0
+Invalid transaction_status values,0
+Invalid channel values,0
+Invalid payment_method values,551
+Total invalid categorical values,551
+Impossible customer ages (<15 or >100),55
+Valid records (no critical issue),54560
+Rejected records (>=1 critical issue),877

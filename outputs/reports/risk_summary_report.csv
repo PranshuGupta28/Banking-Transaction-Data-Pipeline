@@ -1,0 +1,15 @@
+metric,value
+Total scored transactions,54614.0
+LOW risk transactions,37442.0
+LOW risk %,68.56
+MEDIUM risk transactions,16210.0
+MEDIUM risk %,29.68
+HIGH risk transactions,962.0
+HIGH risk %,1.76
+Rule hits: is_high_amount,508.0
+Rule hits: has_multiple_failures,1038.0
+Rule hits: is_unusual_international,503.0
+Rule hits: is_rapid_consecutive,14880.0
+Rule hits: is_high_daily_activity,162.0
+Rule hits: above_customer_avg,6265.0
+Customers with >=1 HIGH risk txn,887.0
